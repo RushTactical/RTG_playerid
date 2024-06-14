@@ -1,0 +1,29 @@
+.playerPlate {
+    position: fixed;
+    top: 10px;
+    right: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.homePlate {
+    position: absolute;
+    width: 50px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border: 5px solid rgba(255, 255, 255, 0.597); /* Add a white border around the home plate */
+    border-width: 5px; /* Set the width of the individual lines */
+    border-style: double;
+    border-spacing: 40px; /* Set the gap between the two lines */
+    padding: 10px; /* Increase the padding to add space between the border lines */
+    background-color: rgba(0, 0, 0, 0.665); /* Adjust the color and transparency as needed */
+    z-index: 1; /* Set a higher z-index for the home plate */
+    transform-style: inherit;
+}
+
+
+#playerId {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: 20px; /* Adjust the margin as needed */
+    z-index: 2; /* Set an even higher z-index for the player ID to ensure it's on top */
+}
